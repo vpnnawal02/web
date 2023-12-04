@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playstation buy page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="D:\CODE\Web Projects\Project 6\fcc\logo.png" class="logo">
+
+            <nav>
+                <ul id="menuList">
+                    <li><a href="">Game Controllers</a></li>
+                    <li><a href="">VR Accessories</a></li>
+                    <li><a href="">Media Remotes</a></li>
+                    <li><a href="">Game Controllers</a></li>
+                </ul>
+            </nav>
+
+            <img src="D:\CODE\Web Projects\Project 6\fcc\menu.png" class="menu-icon" onclick="togglemenu()">
+        </div>
+
+        <div class="row">
+            <div class="col-1">
+                <h3><b><u>Web page created by VIPIN NAWAL</u></b></h3>
+                <h2>PS4 V2<br>Dualshock 4</h2>
+                <h3>Wireless Controller for PlayStation 4</h3>
+                <p>(Compatible/Generic)</p>
+                <h4>$32.50</h4>
+                <button type="button">Buy Now <img src="D:\CODE\Web Projects\Project 6\fcc\arrow.png" alt=""></button>
+            </div>
+
+            <div class="col-2">
+                <img src="D:\CODE\Web Projects\Project 6\fcc\controller.png" class="controller">
+
+                <div class="color-box">
+
+                </div>
+                <div class="add-btn">
+                    <img src="D:\CODE\Web Projects\Project 6\fcc\add.png" alt="">
+                    <p><small>Add to Cart</small></p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="social-links">
+
+            <a href="https://www.facebook.com/profile.php?id=100008160219044" target="_blank"><img src="D:\CODE\Web Projects\Project 6\fcc\fb.png"></a>
+            
+            <a href="https://www.linkedin.com/in/vipin-nawal-44457117a/" target="_blank"><img src="D:\CODE\Web Projects\Project 6\fcc\LI.png"></a>
+
+            <a href="https://www.instagram.com/vipin_nawal/" target="_blank"><img src="D:\CODE\Web Projects\Project 6\fcc\ig.png"></a>
+            
+        </div>
+    </div>
+    
+    <script>
+        var menuList = document.getElementById("menuList");
+        menuList.style.maxHeight = "0px";
+        function togglemenu(){
+            if(menuList.style.maxHeight == "0px")
+            {
+                menuList.style.maxHeight == "130px"
+            }
+            else
+            {
+                menuList.style.maxHeight == "0px"
+            }
+        }
+
+    </script>
+</body>
+</html>
